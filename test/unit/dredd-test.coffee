@@ -8,7 +8,7 @@ fsStub = require 'fs'
 requestStub = require 'request'
 loggerStub = require '../../src/logger'
 
-dreddTransactionsStub = require 'dredd-transactions'
+dreddTransactionsStub = require 'adsk-dredd-transactions'
 
 Dredd = proxyquire '../../src/dredd', {
   'request': requestStub

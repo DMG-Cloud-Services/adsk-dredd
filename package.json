@@ -1,5 +1,5 @@
 {
-  "name": "dmg-dredd",
+  "name": "adsk-dredd",
   "version": "4.6.5",
   "description": "HTTP API Testing Framework",
   "main": "lib/dredd.js",
@@ -26,9 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DMG-Cloud-Services/dmg-dredd"
+    "url": "https://github.com/DMG-Cloud-Services/adsk-dredd"
   },
   "dependencies": {
+    "adsk-dredd-transactions": "4.6.6",
     "async": "^2.3.0",
     "caseless": "^0.12.0",
     "chai": "^4.0.2",
@@ -36,7 +37,6 @@
     "coffee-script": "^1.12.5",
     "colors": "^1.1.2",
     "cross-spawn": "^5.0.1",
-    "dmg-dredd-transactions": "4.6.0",
     "file": "^0.2.2",
     "gavel": "^1.1.1",
     "glob": "^7.0.5",
