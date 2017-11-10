@@ -10,7 +10,7 @@ options = require './options'
 Runner = require './transaction-runner'
 {applyConfiguration} = require './configuration'
 handleRuntimeProblems = require './handle-runtime-problems'
-dreddTransactions = require 'dredd-transactions'
+dreddTransactions = require 'dmg-dredd-transactions'
 configureReporters = require './configure-reporters'
 
 
