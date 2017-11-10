@@ -1,6 +1,6 @@
 {
   "name": "dmg-dredd",
-  "version": "4.6.4",
+  "version": "4.6.5",
   "description": "HTTP API Testing Framework",
   "main": "lib/dredd.js",
   "bin": {
